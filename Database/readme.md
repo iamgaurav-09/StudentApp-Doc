@@ -16,3 +16,8 @@ docker inspect <containerID>
 ````
 
 ![image](https://github.com/user-attachments/assets/49147a3d-d764-4b53-a73b-5be1be2b8980)
+
+**Login to DB Container**
+````
+docker exec -it dac6  mariadb --user root -p1234
+```` 
